@@ -9,10 +9,14 @@ import java.beans.ConstructorProperties;
  */
 @SuppressWarnings("unused")
 public class MapDataEntry {
+
+    public static final String KEY_LOOKUP_KEY = "key";
+    public static final String VALUE_LOOKUP_KEY = "value";
+
     private final String _key;
     private final Long _value;
 
-    @ConstructorProperties({"key", "value"})
+    @ConstructorProperties({KEY_LOOKUP_KEY, VALUE_LOOKUP_KEY})
     public MapDataEntry(String key, Long value) {
         _key = key;
         _value = value;
