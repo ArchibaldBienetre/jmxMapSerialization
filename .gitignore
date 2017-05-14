@@ -1,0 +1,8 @@
+# IntelliJ IDEA project files
+*.iml
+
+# IntelliJ IDEA config files
+.idea/
+
+# IntelliJ IDEA build output
+target/
